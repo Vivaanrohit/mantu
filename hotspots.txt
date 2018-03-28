@@ -1,0 +1,15 @@
+Hotpots
+*A Hotspot is a geographical area that has a readily accessible wireless network
+*Hotspots are equipped with broad band internet connection and one or more Access points that allow users to access the internet wirelessly.
+*Hotspots can be setup in any public location that can support an internet connection. All the locations discussed previously are exmp of hotspots.
+
+How a Wi-fi Network works
+A wifi hot spot is created by installing an accsspoint to an internet connection.
+*An access point acts as a base station.
+* when wifi enabled device encounters a hotspot the device can then connect to the network wirelessly.
+* a single access point can support up to 30 users and can function within range of 100-150 feet indoors and up to 300 feets outdoors
+* many access points can be connected to each other via Ethernet cables to create a singlr large network.
+
+Elements of a WI-FI Network
+*Access point(AP)-The AP is a wireless LAN transceiver or "base station" that can connect one or many wireless devices simultaneously to the internet.
+*Wifi cards -- They accept the wireless signal and relay information. they can be internal and external.

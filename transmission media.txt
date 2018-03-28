@@ -1,0 +1,159 @@
+
+Transmission Media
+the transmission media is the physical path between transmitter and reciever in a data trasmission system.
+
+types
+guided media
+the waves are guided along a solid medium
+such as
+Twisted pair
+	Information is transmitted by sendung electrical current through the wires.
+	the twisting tends to decrese the cross talk interface between adjacent pairs.
+	2 types
+	UTP--Unshielded twisted pair
+	STP--shielded twisted pair
+	categories
+	cat1
+	cat2
+	cat3
+	cat4
+	above cats are used for telephone lines
+	cat5
+	cat6
+	cat7
+	above networking
+	in networking 2 types
+	1 straight through cable
+	2 cross over cable 
+co-axial
+	is used to transmit both analog and digital signals
+	carry higher frequencies and much data rates.
+	Less inteference and cross-talk than twisted pair for long distance transmission of 	analog signals, amplifiers are needed ever few kilometers
+
+	2 types of Co-axial Cable
+		1 Thinnet cable
+		2 Thicknet Cable
+	same devices------we uses cross cable
+	Different devices--we use straight through cable
+	but only in between router and pc we use cross over cable becoz they act as same 	devices.(pc can be configured to the router )
+	console cable is used to configure
+	to connect 2 pc we use console cable / rolled over cable
+
+	Widely installed for use in business and coporation Ethernet and other types of LANs.
+	Consists of inter copper insulator covered by cladding material and then covered by an 	outer jacket
+		physical descripton
+			inner conductor is solid copper metal
+			seperated by insulating material
+			outer conductor is braided shield
+			covered by sheath materail
+
+		Plastic like materail, used to seperate the inner conducutor from the 		outer conductor.
+		The outer conductor is a fine cylidrical mesh made from copper.
+		Diameter 0.4 to about 1 inch.
+		
+Application of coaxial cable
+Tv distribution
+long distance telephone transmission
+
+
+
+optic fibres
+transmit ligth signals Inner core of glass or plastic that
+the outer most layer is the jacket. this jacket is composed of plastic.
+50 microns in diameter
+
+2 types of OFC
+1 single mode 
+
+2 multimode
+multimode fiber is optical fiber that is designed to carry multiple light rays or modes concurrently, each at a slightly different reflection angle within the optical fiber core. used for relatively short distances because tye modes tend to disperse over longer lengths(this is called as dispersion)
+
+for longer distances, single mode fiber(sometimes called monomode) fiber is used. 
+In single mode fiber a single ray or mode of light act as a carrier.
+
+
+unguided Transmission media
+
+
+Infrared
+infrared ligth is electromagnetic radiation with a wavelength longer than that of visible ligth.
+
+bluetooth
+bluetooth is wireless protocol for exchanging data over short ditances from fixed and mobile devices, creating personal area networks(PAN).
+
+Troubleshooting commands
+* ping
+*Tracert
+* Ipconfig
+*ipconfig /all
+*ping ipaddress -t
+*Netstat
+*Netsh winsock reset(for resetting NIC card)
+
+trouble shooting steps:{internet not browsing}
+1cmd--> ipconfig
+	if error[]
+	APIPA[169.254.10.100]----configure the manual ip address given by ISP
+2.ping the modem(ping 192.168.1.1) check 
+3.ping to DNS (ping DNS ip)if is piniging then connection is there bet ISP to pc
+4. ping global website(ping yahoo.com)
+5.check your pc proxy setting ---disable it--security setting--reinstall browser---use default setting.
+
+
+Wireless systems.
+1. Cellular systems.
+2.Wireless LANS
+3.Satellite systems.
+4.Paging Systems.
+5.PAN Systems.
+
+Wireless 
+	1. This is an alternative to wired technology which is commonly used for connecting devices in wireless mode.
+	2. WiFi(Wireless Fidelity) is a generic term that refers to IEEE 802.11 standard for wireless local area networks (WLAN).
+
+The wifi tech
+	these use Radio Technologies to transmit and receive data at high speed.
+	IEEE 802.11b.	
+	IEEE 802.11a.
+	IEEE 802.11g.
+
+1.IEEE 802.11b:
+	1.Appear in late 1999.
+	2.Operates at 2.4GHz radio spectrum.
+	3.11 Mbps (therotical speed)- within 30 m range.
+	4.4-6 Mbps(actual speed)
+	5.100- 150 feet range
+	6.most popular, least expensive.
+	7.Interference from mobile phones and bluetooth devices which can reduce the transmission speed.
+
+2.IEEE 802.11a:
+	1.Introduced in 2001.
+	2.Operates at 5GHz (less popoular)
+	3.54Mbps (theoretical speed)
+	4.15-20 Mbps(Actual Speed)
+	5.50-75 feet range.
+	6.More expensive.
+	7.Not compatible with 802.11b.
+
+3.IEEE 802.11g:
+	Intro in 2003.
+	Combine the feature of both standards.
+	100-150 feet range.
+	54 Mbps speed.
+	2.4 GHz radio frequencies.
+	Compatible with "b".
+
+WiFi  Topologies.
+Peer to Peer topology(Ad-hoc Mode)
+
+AP -based topology (Infrastructure Mode)  
+
+Peer to Peer: 
+	1.AP is not required.
+	2.Client devices within a cell communicate with each other directly.
+	3.It is useful for setting up a wireless network quickly and easily.
+
+AP- based topology:
+	1.the client communicate through access point.
+	2.Any communication has to go through AP.
+	3.If a mobile station(MS), like a computer, a PDA, Or a phone, wants to communicate with another MS, it needs to send the information to AP first, then AP sends it to the destination MS.

@@ -1,0 +1,112 @@
+OSI
+Open system interconnection
+pc 1--------Communication--------pc2
+why we use?
+Multiple work divide into 7 layers
+it makes the devices standard(one company and other company diff ideas)
+helps us focus on perticular layer(some manufacture on physical,data etc)
+helps us to truobleshoot in network easily by layer wise.
+
+
+OSI Layer
+7 Application layer
+6 Presentation layer
+5 Session layer
+(1st 3 layer called as Upper or Software layer)
+
+4Transport layer(Heart of OSI)
+
+(last 3 layers called as Lower layer or Hardware layer)
+3 Network layer
+2 Data link Layer
+1 Physical layer
+
+                                 Application Layer
+This layer is responsible for providing network Service to the user.
+It is also known as Desktop layer.
+Identification of Services is done using port numbers.
+
+Ports are entry and Exit points to the layer.
+
+Resource, sharing, Remote file, file Accessing, directory services
+
+Total No. ports 0-65535
+reserved Ports  0-1023
+Open Client ports 1024-65535
+
+
+Presentation layer
+Responsible for converting data into standard format.
+Examples: ASCII     EBCDIC       JPEG     MPEG     MIDI      WAV      MP3
+
+following tasks are perform at presentation layer
+Encoding--- Decoding
+Encryption--Decryption
+Compression--Decompression
+
+
+Session Layer
+Responsible for establishing, Maintaing and Terminating session.
+Session ID works at session Layer.
+
+Examples: RPC -> remote Procedure call
+SQL -> Structured Query Language
+NFS -> Network File System
+
+Transport Layer
+Responsible for end to end connectivity.
+it is also known as heart of OSI
+
+Tasks done at Transport Layer:
+Message segementation, Acknologement and Message traffic control.
+
+Identifying Services
+Multiplexing and De multiplexing
+Segementation
+sequencing and Reassembling
+Error correction
+Flow control
+
+Network Layer
+reponsible for providing best path for data to reach the destination.
+Logical Addressing works on this layer.
+Router is a Network Layer Device.
+
+It is divided into two parts.
+1 Routed protocols
+	eg..IP, IPX , Apple talk.
+2.Routing protocols
+	eg--RIP, IGRP, OSPF, EIGRP
+
+DATA Link Layer
+
+it is divided into two sub layers
+1. LLC--Logical Link Control
+	it talks about Wan protocols  eg...PPP,HDLC, Frame-relay
+	(frame traffic control)
+2.MAC--Media Access Control
+it talks about Physical address.
+it is a 48 bit address ie 12 digit Hexa decimal number.
+It is also responsible for error detection
+Devices working on data Link Layer are Switch, Bridge, NIC.
+
+Physical Layer
+responsible for electrical, mechanical and procedural checks.
+data will be converted into binary (ie) zero and 1. 
+data will be in the form of electrical form of electrical pulses if it is Coaxial or Twisted Pair cable and in the form of Light if it is Fibre Optic cable.
+Devices working at physical layer are HUB Repeaters Cables Modems.
+(data encoding Transmission techanique-Basebrand or broadband, physical Medium transmission)
+
+DATA Flow from layer
+7 Application --data
+6 presentation ---data
+5 session--data
+4 transport--segment
+3 Network--Packet
+2 Data Link--Frame
+1 physical---Bits
+
+
+
+
+

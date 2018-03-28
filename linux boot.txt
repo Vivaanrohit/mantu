@@ -1,0 +1,8 @@
+Linux booting process
+
+pre boot sequence
+2 process
+boot
+startup process
+
+POST-----------fail--no startup

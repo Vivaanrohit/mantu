@@ -1,0 +1,79 @@
+Protocols
+protocols is a set of rules describes how data flow over a network.
+protocols needed for communication between any two devices.
+
+TCP/IP protocol suite
+TCP?IP dos not have an official layer structure
+Actually TCP/IP reference model has been built on its protocols.
+Transmssion control Protocol
+	Connection oriented
+	reliable delivery of data
+	ordering of delivery
+User Datagram Protocol(UDP)
+	Connectionless service
+	delivery is not Guaranteed
+
+Protocol Port Number
+        TCP 				                          UDP
+
+Ftp                     20,21                                                                 DNS        53
+SSH                   22				DHCP     67
+Telnet               23				TFTP       69
+SMTP               25				SNMP    161
+HTTP               80
+POP3               110
+NTP                 123
+IMAP4            143
+HTTPS           443
+
+File Tranfer Protocol----file upload and download file
+Telnet ---------------------used to remote login(not secured)
+SSH (secure Shell)(y use)-------------- Also used to remote login(secured (used in compamies))
+Simple mail tranfer protocol-------- --Used to sent the mail
+Hyper text tranfer protocol------------website
+Post office protocol---------------------used to recieve the mail
+Network Time protocol----------------used to manage the time in org.(in case of multiple devices) 
+Internet Access Protocol---used to manage all the mails centralised using mail server
+HTTPS----------to make website secured
+
+
+Domain naming system-----resolve ip to name .vice-versa
+DHCP---------assign Ip address automatically
+TrevailFTP------secured ftp.
+SimpleNtworkManagementProtocol----to monitoring purpose and manage network.
+
+Communication Modes
+	The communication modes refer to the manner in which the two devices in a network communicate with each other.
+	There are three typs of modes 
+	1. Simplex Communication.
+	2.Half Duplex -do-
+	3. Duplex -do- 
+
+Simplex Communication.
+	communication channel can transfer data in only one direction.
+
+Half Duplex Communication.
+	the half duplex mode communication can send the data in both directions but not simultaneously. It can either us ethe communicatiobn channel to send the data or the same channel can be used to receive the data at a time.
+	EX:Walkie-talkies are the best examples
+
+Full Duplex Communication
+	The full duplex communication permits data to be sent and received by the same communication channel simultaneously.
+	The full duplex communixcation can be compared to a two way bridge on a two lane highway.
+ EX: Mobile are the best example.
+
+
+Messaging Types:
+	There are three different kinds of messages which have to be sent from one device to another through network.
+
+1.Unicast
+2.Multicast.
+3.Broadcast.
+
+1. Unicast: Unicast is the communication between a single sender and a single recevier through the network.
+
+2. Multi-cast:
+	Multicast is the delivery of infromation to a group of destination system simultaneously using the most efficient strategy to deliver the messages over each link of the network.
+
+3.BroadCast.
+	Broadcast is used to send the inforamtion from one source to multiple systems. One sender sends the inforamtion to all connected receviers.Broadcast transmission is supported on most LANs and can be used to send message to all computers on the LAN.
+

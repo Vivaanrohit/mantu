@@ -1,0 +1,348 @@
+
+Basics of Networking
+
+A network consist of 2 or more computers connected together and they can communicate and share the resources.
+eg: information
+
+Advantages of networking
+
+Data sharing
+Hardware Device sharing
+Work is faster
+Reduce the time
+We can book ticket online
+Reduce the cost of organization
+We can do bank transctions sitting from home
+voice and video chatting
+communication is faster
+online shopping
+
+
+Network models
+1 peer to peer(work group model)
+2 Client Server model(Domain model)
+
+1 peer to peer
+
+clients and server are not distinguished.
+all the nodes are having same permission.
+
+advantages of peer to peer
+low cost
+simple to configure
+user has full accessibility of the computer
+
+Disadvantages
+May have duplication in resources
+Difficult to use security policy
+Difficult to handle 
+
+2 server client model
+one specific  server and many clients
+all the clients are connected to server
+all the clients are controlled by server
+
+Advantages
+
+sharing resources
+Security
+Centralized management
+Centralized administration and control
+Easy to maintain the network
+Facility of system backup
+Fault tolerance
+
+
+servers
+servers are typically powerful computer that run the software that controls and maintains the network.
+There are some of the server which are used to perform a perticular task.
+
+File server(to manage all the shared files(perticular data accessed by perticular dept)(some user are able edit , write and some are not))
+
+Print server
+(schedule time, manages different permission)
+
+IIS web server(web services)to manage all website
+Prox--cy server ------used to manage internet users-----it avoid unexpected access----using it we can create time limit for intenet user.
+Exchange server----manage all the mails centralized---to send image we use smtp (25) mail pop
+DHCP server -------to assign ip address to clients automatically-------(in home )modem is acting like DHCP server
+DNS server   -----used to resolving ip address to domain name and vice-versa.
+WDS                -------------windows deployment services(we can install os(windows services) to all pc at a time)
+
+
+Types of networks
+
+Networks are typically classified by the amount of geographical coverage.
+
+LAN-local area 
+
+A lan is a group of systems associted in relatively small area. it connects devices in ia limited geographical area using one or more hubs or switches.
+lan can also interconnected in building.
+
+MAN-metropolitan
+     The Network interconnects large computer ntworks in which two or more computers are connected accross a city
+    This Network uses wireless or optical fibre cable connections to link their sites.
+
+Features of MAN
+	A MAN Covers area between 5 to 50 kms.
+	A man often act as a high speed network to allow sharing of resources
+
+
+WAN------------wide
+Wide area network provides network connectivity over large geographical area between countries.
+WAN consists of multiple LAN and MAN is a network over a large geographical area.
+
+
+CAN ------------Campus area network
+
+A campus area network or corporate area network is a network made up of interconnection of local area network within a limited area.
+A campus area network is larger than a LAN.
+
+WLAN----------wireless LAN
+
+PAN----------- personal
+smallest type of network 
+
+DAN-----------Desk Area Network
+is an interconnection of computer devices using ATM(Asysnchronus Transfer Mode).
+
+SAN-----------Storage area network
+that connects server to data storage devices with the use of a specific technology. 
+
+
+
+Network of topology
+
+design of network-----Structure
+
+there are two basic categories of network topology
+1. physical---------defines how the nodes of the network are physically connected.
+		it refers to the layout of cavling, the locations of nodes, and the interconnections between the nodes and 		the cabling.
+2 logical-----------how communication is happen within network 
+		how data is transmitted between nodes
+		it is the way tha data passes through the network from one device to another.
+
+Different type of topologies
+1 Bus
+2 Ring
+ 3 Star
+4 Mesh
+5 Tree (hybrid)
+
+1 BUS
+	a bus topology is multipoint
+	Linear architecture (with rj 45)(coaxial cable)
+	here one long cable act as backone of all the devices.
+	this allows only one device to transmit at a time. 
+Advantages
+	Ease of instalation
+	less expensive
+DisAdvantages
+	Difficult to add new device
+	if any fault in backbone can stop all transmission.
+
+2 Ring Topology
+	here each device has a dedicated connection with two devices on either side.
+	the signal is passed in one dorection from device to device until it reaches the destination.
+	when one device recirved signals its repeater then regenerates the data and passes them along.
+	its one way or uni way directrion
+Advantages
+	easy to install
+	easy to reconfigure
+	fault identification is easy
+Disadvantages
+	unidirectional traffic.
+	Break in a ring can break entire network
+
+Star Topology
+	here each device has a dedicated point to point link to the central controller called "hub".
+	there is no direct traffic between devices
+	the transmission are occurred only through the central "hub"
+
+ Advantages
+	Less expenasive then mesh since each device is connected only to the hub.
+	Installation and configuration are easy.
+	less cabling is need than mesh.
+	Robustness (if one link fails, thn only that link will be affeected. all ohter links reamin active).
+	Easy to fault identification and to remove parts.
+
+Dis -advantges.
+	Dependency( whole dependent on one single point (hub)). when it is goes down then whole is dead.
+
+Mesh Topology
+A network setup where each computer and network device is interconnected with each another for fault tolerance. Which is used in wireless and WAN networks. Used in WAN
+Advantages
+It is Robust. If any one link get damaged it cannot affect others.
+Mesh Topology is used for redundancy Purpose.
+
+Disadvantages
+Amount of cabling and number of I/O ports required very large.
+Hardware required to connect each device very expensive.
+
+Tree Topology
+Tree topology is one of the most common network setups.
+That connects Multiple star networks to other star networks in the form of tree structure.
+
+Hybrid Topology
+A network which contain all type of physical structure and connected under a single backbone chennel. Combination of 2 or more different topologies
+
+Antivirus ---avoid virus
+Firewall----we can create in coming rule and outgoing rule   ----we can block the services----we can block port.
+
+software firewall---built - In with os but(applied for stand alone pc or single)
+Hardware firewall--------we need to buy(50000) used to secure whole network.
+
+networking devices
+ networking devices are componets are used to connect computers or other electronic devices together so that they can share files or resources.
+
+NIC--Network Interface Card
+
+NIC----Nic hardware devices that connect a computer with the network.
+	computer data is translated into elelctrical signals send to the network via NIC
+	It allows users to connects to each other either by using cables or wirelessly.
+
+	Types of NIC Cards
+		1 Wired NIC 
+		2Wireless
+		3 Fibre Oftic NIC
+how many NIC Present in laptop:2(wired and wireless)
+		
+Hub
+
+	A hub is a common connection point for devices in a network.
+	works at physical layer and hence connect networking devices physically together.
+	contains multiple ports
+	it is Broadcasting
+		1-1 unicast
+		1-M multicast
+		1-All Multicast
+	(Slow communication)
+
+Repeaters
+
+A repeater is a electronic device that recieve signals and retransmit it.
+Repeaters are used to extend the signal to cover longer distances.
+
+Bridges-------used to extend the same networks (both bridge and switch comes under OsI)
+
+Bridges Builds the connection with the same bridge networks which use the same protocol.
+it operate at the data link layer of the OSI model.
+ 
+Switches
+A switch is an intelligent device that works in the data link layer.
+The team intelligent refers to the decision making capacity of the switch.
+Switch is Multicasting.
+
+
+Routers
+Routers are used to communicate between 2 different Networks.
+Routers Operate at the network layer of the OSI Model.
+
+HUB                                                                    			   Switch
+
+Broadcasting                                 				Multicasting
+Physical layer                       				 Data link layer
+slow   						Fast communication
+send data in binary bits                                                                                     Frames
+half duplex  (communicates one wat at time)		Full duplex (simultaneously both diraction) 
+Supports less support                    				 More Ports
+
+Switch 						Router
+Same network					different Network
+Uses DLL						Network Layers
+Frames  						send data in packets
+Low cost						high cost(wifi router(3000)(network router(1 lack))
+Switch used in LAN					Router used in WAN
+switch uses mac address 
+(to identify the hardware device(48  24+unique id +24 manufacture id)            ip address
+
+ip address 
+5 classes
+ip basic group --- 8
+INTERNET PROTOCOL ADDRESS
+
+it is 32 bit ip address
+4 octactes
+it is seperated by (.)
+it is in decimal format
+it support maximum of 2 pow 32
+example ---192.168.1.1
+also known as logical address
+without ip address two pc not able to communicate with each other
+
+classes of IPv4
+class A 1-126----------large network
+class B 128-191-------Medium Size Network
+class C 192-223-------Small Network
+class D 224-239------Multicasting
+class E 240-255------research  & developement
+
+class A 1-126
+Network:Host:host:host -----8(network part):24()
+default subnet Mask----255.0.0.0
+Example---10.0.01
+
+what is Subnet mask
+use to divides the IP address into network address and host address. 
+
+class B
+128-191
+class B N:N:H:H   16:16 bits
+Subnet mask 255.255.255.0
+129.10.0.1
+
+class C
+192-223
+N:N:N:H  24:8 bits
+255.255.255.0 default subnet ID
+Example : 192.168.1.1
+
+network ID ----we can not configure inside in pC---------used to identify the branches
+Host Id-------we can configure
+
+More bracnches---------class C
+Host More----------------Class A
+Equal Number of net and Host-------class B
+
+127.0.0.1 is loopback address
+why we use?
+used to check our own NIC card.(what is Use of it?(sometimes physical connection and everything is fine but still first pc is not able to communicate second PC that we need to test our own NIC card ))---how to check 
+in CMD ping 127.0.0.1
+also called as self-testing ip address.
+
+private IP address----------we can  not use in public ip address, which reserved for private Lans
+			Start range                     End Range
+
+Class A---------		10.0.0.1		10.255.255.255
+Class B			172.16.0.0		172.31.255.255
+Class C-----		192.168.0.0	192.168.255.255
+
+
+but when internet connection is there it will show 192.168.0.0 how?
+Modem 
+
+advantages of public ip
+every one will access internet
+(each and every website running over static ip address)
+
+what is APIPA ip address?
+Automatic Private IP Address it is also called as Link Local Address.
+these are ip addresses automatically generated by PCs when DHCP is not working.
+APIPA range----169.254.0.1       to    169.254.255.254
+comes under class B
+
+
+how to configure
+run
+type ncpa.cpl
+
+subnetting
+divide network into sub network
+
+why we need?
+reduce the org cost
+
+if you want buy static address you have to pay for that.
+
+VPN(virtual private network) ---- we are making private connection form source to destinaton. it will resolves disadvantages of lease-line.
+it is private channel.low cost(secure).
