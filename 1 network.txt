@@ -1,0 +1,103 @@
+10.26.147.58/26
+
+10.26.147.58     =>00001010.00011010.10010011.00111010
+255.255.255.192  =>11111111.11111111.11111111.11000000
+
+Number of bits taken for subnetting : 18
+
+Number of Subnets possible: 2^18 =2,62,144
+
+Number of host bits remaining : 6
+
+Number of hosts possible in each subnet: 2^6 - 2 = 62
+
+First Host Address:10.26.147.1
+
+Last Host Address: 10.26.147.63
+
+Network Address of this IP Address: 10.26.147.0
+
+Previous Subnet to the current subnet: 10.26.146.192
+
+Next Subnet to the Current Subnet:  10.26.147.64
+
+Broadcast Address: 10.26.147.63
+
+Previous IP Address: 10.26.147.57
+
+Next IP Address: 10.26.147.59
+
+
+
+
+10.24.132.11/29
+
+10.24.132.11    => 00001010.?00011000?.?10000100?.00001011
+
+255.255.255.248 => 11111111.11111111.11111111.11111000
+
+Number of bits taken for subnetting : 21
+
+Number of Subnets possible: 2^21 = 2097152
+
+Number of host bits remaining : 7
+
+Number of hosts possible in each subnet: 2^3 = 8
+
+First Host Address: 10.24.132.9
+
+Last Host Address: 10.24.132.14
+
+Network Address of this IP Address: 10.24.132.8
+
+Previous Subnet to the current subnet: 10.24.132.0
+
+Next Subnet to the Current Subnet: 10.24.132.16
+
+Broadcast Address: 10.24.132.15
+
+Previous IP Address: 10.24.132.10
+
+Next IP Address : 10.24.132.12
+
+
+
+3)172.21.5.8/26
+
+172.21.5.8  => ?10101100?.?00010101?.??00000101?.00001000
+
+255.255.255.192   => 11111111.11111111.11111111.11000000  
+
+Number of bits taken for subnetting : 10
+
+Number of Subnets possible: 2^10 = 1024
+
+Number of host bits remaining : 6
+
+Number of hosts possible in each subnet: 2^6 = 64
+
+First Host Address: 172.21.5.1
+
+Last Host Address: 172.21.5.63
+
+Network Address of this IP Address: 172.21.5.0
+
+Previous Subnet to the current subnet: 172.24.132.0
+
+Next Subnet to the Current Subnet: 10.24.132.16
+
+Broadcast Address: 10.24.132.15
+
+Previous IP Address: 10.24.132.10
+
+Next IP Address : 10.24.132.12
+
+
+
+
+
+
+
+
+
+
