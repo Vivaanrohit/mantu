@@ -1,0 +1,198 @@
+C is a middle level language because,
+
+1.it is like english/HLL.
+2.it also having some symbols as used in ALL.
+
+Compliation process
+
+compiler is that converts HLL to MLL.
+In C whole Program will be processed at a time.
+It dislpay Error at a time.
+it highlights the line containg the error when we will be looking for perticular error. 
+
+Differentiate between an execution error and a syntax error. Give examples of execution and syntax errors
+
+execution error are the errors which comes or Displayed at time of execution.
+
+Syntax error comes at time of Compilation time.
+
+Exe error are also called Run time error.
+
+Syntax are also called complier errors.
+
+Syntax are normal errors
+
+Exe error may leads exceptions in programs.
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int sum=0,n=3,count=0;
+	float avg=0;
+	clrscr();
+	while(n<=80)
+	{
+	sum=sum+n;
+	printf("%d\n",n);
+	n=n+3;
+	count++;
+	}
+	printf("sum is = %d \n",sum);
+	printf("count is = %d \n",count);
+	avg=sum/count;
+	printf("average of 3rd integrer between 1 	to 80 is %d",avg);
+	getch();
+}
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+	FILE *fptr1, *fptr2;
+	string  filename1,filename2;
+	char c;
+	printf("enter file name from where you want to copy the data \n");
+	scanf("%s",filename1);
+	printf("enter file name from where you want to copy the data \n");
+	scanf("%s",filename2);
+	if(filename1==NULL)
+	{
+	printf("%s file can not be opened ",filename1);
+	exit(0);
+	}
+	fptr1=fopen("filename1",'r');
+	 printf("Enter the filename to open for writing \n"); 
+         scanf("%s", filename2);
+	if(filename2==NULL)
+	{
+	printf("%s file can not be opened ",filename2);
+	exit(0);
+	}
+        fptr2=fopen("filename2",'w');
+	c=fgetc(fptr1);
+	while(c=!EOF)
+	{
+		fputc(c,fptr2);
+		c=fgetc(fptr1);
+	}
+
+	printf("copied!");
+	fclose(fptr1);
+	fclose(fptr2);
+}
+
+
+3. (a) Write a program in 'C' to compute the series : 5
+
+(x) + (x + n) + (x + n2) + (x + n3) +.....          2+(2+1)+(2+4)
+
+for a total of m terms.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int m,n,x,sum,i=1,s=1;
+	clrscr();
+	printf("enter number of times series should be computed\n");
+	scanf("%d",&m);
+	printf("enter value of x \n");
+	scanf("%d",&x);
+	printf("enter value of n \n");
+	scanf("%d",&n);
+	do
+	{
+		sum=sum+x;
+		s=n*i;
+		x=x+s;
+		i++;
+	}while(i<=m);
+	printf("sum of series = %d"sum);
+	getch();
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+1. (a) It is said that 'C' is a middle level language. Mention those features of 'C' which enables this description. Give a short note on the 'compilation process in 'C'. 10
+
+(b) Develop a flowchart and then write a program in 'C' to sort strings passed to the program through command line arguments. Also display the sorted strings. 10
+
+(c) Define 'pointers' in C. How is a Pointer variable declared? Give examples and explain. Enumerate the utility of Pointer variables,with an example. 10
+
+(d) Differentiate between : 21/2x2=5
+
+(i) Function and sub routine
+
+(ii) Structure and Union with examples of each.
+
+(e) Give the precedence chart for the operator in 'C'.
+
+(a) Differentiate between an execution error and a syntax error. Give examples of execution and syntax errors. 4
+
+(b) Write and explain the act
+
+ion of 'WHILE' statement. Develop a program to compute the average of every 3rd integer lying between 1 and 100. 8
+(c) Write a program in 'C' to copy the contents of one file to another file. 8
+
+3. (a) Write a program in 'C' to compute the series : 5
+
+(x) + (x + n) + (x + n2) + (x + n3) +.....
+
+for a total of m terms.
+
+Where m,n and x are to be accepted by the user.
+
+(b) Differentiate between goto statement,break and continue. 4
+
+(c) What is an assignment operator? Give example of its usage. 3
+
+(d) What is a pointer to an array? Differentiate it from an array of pointers. Write a program using pointer to array to calculate the sum of n given numbers. 8
+
+4. (a) Implement Binary search in 'C' language. 8
+
+(b) With every use of a memory allocation function,what function must be used to release allocated memory which is no longer used? Give syntax also. 4
+
+(c) Write a recursive function in 'C' to count the number of nodes in a singly linked list. 4
+
+5. (a) How are arrays processed in 'C'? Illustrate with the help of 2-D arrays as examples. 6
+
+(b) Give syntax of gets ( ) and getch ( )? Also give examples of usage of scanf ( ) and printf (). 6
+
+(c) A program in 'C' language contains the following declaration : 8
+
+Static int x[8] = {1,2,3,4,5,6,7,8};
+
+What is the meaning of :
+
+(i) x?
+
+(x + 2)?
+
+(iii) *x?
+
+(iv) *(x + 2)? Explain the results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
