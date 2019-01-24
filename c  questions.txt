@@ -1,0 +1,36 @@
+. (a) What are different basic data types in C ? Explain the need of different numeric data types with example of each. (10)
+
+(b) Given the sizes of three different sides, write a C program to find whether a triangle can be formed or not. (5)
+
+(c) What are the logical operators in C ? Explain how they can be used for constructing the logical expressions ? (5)
+
+(d) What is an array ? Write a C program using array to find largest and smallest number from a list of 100 given numbers. (5)
+
+(e) Write a C program using switch to determine, whether the root of a quadratic equation is real or not. (5)
+
+(f) Differentiate between call by value and call 10 by reference using example program. (10)
+
+2. (a) Write a function subs(s, n) in C, which prints the first n-characters of the strings provided n is less than the length of the string. (5)
+
+(b)Write a program in C to display the string "ARRAY" in the following format : (5)
+A
+AR
+ARR
+ARRA
+ARRAY
+
+(c)What is union ? How it is different from structure ? Explain. How a union is declared in C ? Also write a program in C to show use of union. (10)
+
+3. (a) Explain the differences between static and auto variables, with example of each. (5)
+
+(b) Write a C program using pointer to reverse a given string. (10)
+
+(c) Explain the syntax of do-while statement. Also differentiate do-while from while statement.
+
+4.(a) What is recursion ? Write a C program 10 using recursion to print the Fibonacci series upto a given number.
+
+(b) Write a C program using array to find the 10 average price of apples and oranges, in ten cities in the country.
+
+5.(a) Write a C program to store string "This is 10 my file" in a file.
+
+(b) What is pointer to pointer ? Explain need 10 of pointer to pointer with an example. Also show how address of variable in this case is calculated / determined ?
