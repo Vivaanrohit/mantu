@@ -1,0 +1,44 @@
+java 32
+"%~dp0jre-8u202-windows-i586.exe" /s SPONSORS=0
+
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{26A24AE4-039D-4CA4-87B4-2F32180202F0}"
+if Not %errorlevel% == 0 (
+	EXIT /B %errorlevel%
+)
+
+REG IMPORT "%~dp0Javaupdatedisable.reg"
+EXIT /B 0
+
+uninstall
+msiexec.exe /X {26A24AE4-039D-4CA4-87B4-2F32180202F0} /qn /norestart
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{26A24AE4-039D-4CA4-87B4-2F32180202F0}"
+if %errorlevel%==0 (
+	EXIT /B %errorlevel%
+)
+EXIT /B 0
+
+msiexec.exe /X {23170F69-40C1-2702-1900-000001000000} /qn /norestart
+EXIT /B %errorlevel%
+
+
+adobe
+
+"%~dp0AcroRdrDC1901220034_ja_JP.exe" /sAll /norestart
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-7AD7-1041-7B44-AC0F074E4100}"
+if Not %errorlevel% == 0 (
+	EXIT /B %errorlevel%
+)
+EXIT /B 0
+
+
+adobe uninstall
+msiexec.exe /x {AC76BA86-7AD7-1041-7B44-AC0F074E4100} /qn /norestart
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-7AD7-1041-7B44-AC0F074E4100}"
+if %errorlevel%==0 (
+	EXIT /B %errorlevel%
+)
+EXIT /B 0
+
+
+
+
